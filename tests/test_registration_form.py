@@ -36,6 +36,7 @@ def test_reg_form():
         command.js.scroll_into_view)
     browser.element('[for=hobbies-checkbox-2]').click()
 
+
     browser.element('#uploadPicture').set_value(
         os.path.abspath(
             os.path.join(os.path.dirname(tests.__file__), 'resources/foto.jpg')
