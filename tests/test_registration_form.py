@@ -6,6 +6,7 @@ from qa_guru_4_10_page_object.pages.registration_page import RegistrationPage
 
 def test_reg_form():
     registration_page = RegistrationPage()
+
     student = User(first_name='John', last_name='Smith', email='name@example.com',
                    gender='Male', mobile='9079079079', year_of_birth='1986',
                    month_of_birth='June',
