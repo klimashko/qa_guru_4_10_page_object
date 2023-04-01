@@ -18,6 +18,8 @@ class RegistrationPage:
         browser.all('[id^=google_ads][id$=container__]').perform(
             command.js.remove)
 
+
+
     def fill_first_name(self, value):
         browser.element('#firstName').type(value)
 
